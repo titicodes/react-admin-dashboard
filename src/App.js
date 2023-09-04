@@ -12,7 +12,8 @@ import Form from "./components/forms";
 import Calendar from "./scenes/calendar";
 import Faq from "./scenes/faq";
 import Bar from "./scenes/bar";
-
+import Line from "./scenes/line";
+import Pie from "./scenes/pie";
 
 function App() {
   const [theme, colorMode] = useMode();
@@ -35,6 +36,8 @@ function App() {
             <Route path="/calendar" element={<Calendar />} />
             <Route path="/faq" element={<Faq />} />
             <Route path="/bar" element={<Bar />} />
+            <Route path="/line" element={<Line />} />
+            <Route path="/pie" element={<Pie />} />
             </Routes>
             </Stack>
             
